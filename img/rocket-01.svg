@@ -1,0 +1,368 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 180 346"><defs><style>.cls-1 {
+  isolation: isolate;
+}
+svg{
+    height: 90vh;
+}
+.cls-2 {
+ /* fill: #8b3fae;*/
+  fill: url(#Gradiente_sem_nome_45-7);
+}
+.cls-13,
+.cls-3,
+.cls-4,
+.cls-8 {
+  mix-blend-mode: overlay;
+}
+.cls-3 {
+  fill: url(#Gradiente_sem_nome_73);
+}
+.cls-4 {
+  fill: url(#Gradiente_sem_nome_73-2);
+}
+.cls-5 {
+  fill: url(#Gradiente_sem_nome_73-3);
+}
+.cls-6 {
+  fill: url(#Gradiente_sem_nome_45);
+}
+.cls-7 {
+  fill: url(#Gradiente_sem_nome_45-2);
+}
+.cls-8 {
+  fill: url(#Gradiente_sem_nome_73-4);
+}
+.cls-9 {
+  fill: url(#Gradiente_sem_nome_45-7);
+}
+.cls-10,
+.cls-13 {
+  /*fill: #ced2d8;*/
+   fill: url(#Gradiente_sem_nome_45-8);
+}
+.cls-11 {
+  fill: url(#Gradiente_sem_nome_47);
+}
+.cls-12 {
+  /*fill: #383838;*/
+    fill: url(#Gradiente_sem_nome_47);
+}
+.cls-13 {
+  opacity: 0.39;
+}
+.cls-14 {
+  fill: none;
+  stroke: #383838;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.cls-15 {
+  fill: url(#Gradiente_sem_nome_136);
+}
+.cls-16 {
+  fill: url(#Gradiente_sem_nome_134);
+}
+.cls-17 {
+  fill: url(#Gradiente_sem_nome_136-2);
+}
+.cls-18 {
+  fill: url(#Gradiente_sem_nome_134-2);
+}
+.cls-19 {
+  fill: url(#Gradiente_sem_nome_115);
+}
+.cls-20 {
+  fill: url(#Gradiente_sem_nome_115-2);
+}
+.cls-21 {
+  fill: url(#Gradiente_sem_nome_116);
+}
+</style>
+<linearGradient id="Gradiente_sem_nome_73" x1="17.57" y1="226.91" x2="43.56" y2="226.91" gradientUnits="userSpaceOnUse">
+<!-- <stop offset="0" stop-color="#ced2d8"/>
+<stop offset="1" stop-color="#9ba0b4"/> -->
+<stop offset="0" stop-color="#ced2d8">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="1" stop-color="#9ba0b4" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+</linearGradient>
+<linearGradient id="Gradiente_sem_nome_73-2" x1="123.57" y1="226.91" x2="149.56" y2="226.91" gradientTransform="matrix(-1, 0, 0, 1, 282, 0)" xlink:href="#Gradiente_sem_nome_73"/>
+<linearGradient id="Gradiente_sem_nome_73-3" x1="-3.1" y1="50.62" x2="163.08" y2="200.46" xlink:href="#Gradiente_sem_nome_73"/>
+<linearGradient id="Gradiente_sem_nome_45" x1="210.69" y1="308.43" x2="-110.42" y2="139.68" gradientUnits="userSpaceOnUse">
+<!--     <stop offset="0" stop-color="#ff57a4"/>
+    <stop offset="1" stop-color="#3f02a8"/> -->
+    <stop offset="0" stop-color="#ff57a4">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="1" stop-color="#3f02a8" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+</linearGradient>
+<linearGradient id="Gradiente_sem_nome_45-7" x1="210.69" y1="308.43" x2="-110.42" y2="139.68" gradientUnits="userSpaceOnUse">
+<!--     <stop offset="0" stop-color="#ff57a4"/>
+    <stop offset="1" stop-color="#3f02a8"/> -->
+    <stop offset="0" stop-color="#8b3fae">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="1" stop-color="#AD61D0" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+</linearGradient>
+<linearGradient id="Gradiente_sem_nome_45-8" x1="210.69" y1="308.43" x2="-110.42" y2="139.68" gradientUnits="userSpaceOnUse">
+<!--     <stop offset="0" stop-color="#ff57a4"/>
+    <stop offset="1" stop-color="#3f02a8"/> -->
+    <stop offset="0" stop-color="#1e1e1e">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="1" stop-color="#252424" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+</linearGradient>
+
+<linearGradient id="Gradiente_sem_nome_45-2" x1="295.71" y1="146.63" x2="-25.4" y2="-22.12" xlink:href="#Gradiente_sem_nome_45"/>
+<linearGradient id="Gradiente_sem_nome_73-4" x1="46.89" y1="13.58" x2="94.91" y2="247.86" xlink:href="#Gradiente_sem_nome_73"/>
+<linearGradient id="Gradiente_sem_nome_47" x1="194.3" y1="179.12" x2="194.3" y2="229.73" gradientTransform="translate(282.3 294) rotate(180)" gradientUnits="userSpaceOnUse">
+<!--     <stop offset="0" stop-color="#4b28c4"/>
+    <stop offset="1" stop-color="#3f02a8"/> -->
+
+    <stop offset="0" stop-color="#4b28c4">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="1" stop-color="#3f02a8" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+
+</linearGradient>
+<linearGradient id="Gradiente_sem_nome_136" x1="194" y1="160.33" x2="194" y2="178.83" gradientTransform="translate(282 318.44) rotate(180)" xlink:href="#Gradiente_sem_nome_73"/>
+<linearGradient id="Gradiente_sem_nome_134" x1="88" y1="141.55" x2="88" y2="156.41" gradientUnits="userSpaceOnUse">
+<!--     <stop offset="0" stop-color="#ced2d8"/>
+    <stop offset="0.31" stop-color="#c2c6d0"/>
+    <stop offset="0.87" stop-color="#a3a8ba"/>
+    <stop offset="1" stop-color="#9ba0b4"/> -->
+
+     <stop offset="0" stop-color="#ced2d8">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="0.31" stop-color="#c2c6d0" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+ <stop offset="0.87" stop-color="#a3a8ba">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="1" stop-color="#9ba0b4" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+</linearGradient>
+<linearGradient id="Gradiente_sem_nome_136-2" x1="194" y1="144" x2="194" y2="153.25" gradientTransform="translate(282 318.44) rotate(180)" xlink:href="#Gradiente_sem_nome_73"/>
+<linearGradient id="Gradiente_sem_nome_134-2" x1="88" y1="166.16" x2="88" y2="173.59" xlink:href="#Gradiente_sem_nome_134"/>
+<linearGradient id="Gradiente_sem_nome_115" x1="88" y1="334.04" x2="88" y2="203.1" gradientUnits="userSpaceOnUse">
+<!--     <stop offset="0" stop-color="#ff57a4"/>
+    <stop offset="0.11" stop-color="#f352a4"/>
+    <stop offset="0.31" stop-color="#d444a5"/>
+    <stop offset="0.57" stop-color="#a12da6"/>
+    <stop offset="0.88" stop-color="#5b0ea7"/>
+    <stop offset="1" stop-color="#3f02a8"/> -->
+
+      <stop offset="0" stop-color="#ff57a4">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="0.11" stop-color="#f352a4" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+ <stop offset="0.31" stop-color="#d444a5">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="0.57" stop-color="#a12da6" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+ <stop offset="0.88" stop-color="#5b0ea7">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="1" stop-color="#3f02a8" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+</linearGradient>
+<linearGradient id="Gradiente_sem_nome_115-2" x1="88" y1="361.46" x2="88" y2="256.41" xlink:href="#Gradiente_sem_nome_115">
+    <stop offset="0" stop-color="#280D80">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="1" stop-color="#280D80" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+</linearGradient>
+<linearGradient id="Gradiente_sem_nome_116" x1="88" y1="334.04" x2="88" y2="255.88" gradientUnits="userSpaceOnUse">
+<!--     <stop offset="0" stop-color="#8b3fae"/>
+    <stop offset="0.23" stop-color="#7f36ad"/>
+    <stop offset="0.64" stop-color="#601dab"/>
+    <stop offset="1" stop-color="#3f02a8"/> -->
+
+      <stop offset="0" stop-color="#8b3fae">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="0.23" stop-color="#7f36ad" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+ <stop offset="0.64" stop-color="#601dab">
+                    <animate dur="3s"    attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+<stop offset="1" stop-color="#3f02a8" stop-opacity="0">
+                    <animate dur="3s"   attributeName="offset" fill="freeze" from="0" to="1" />
+</stop>
+
+</linearGradient></defs><title>rocket</title><g class="cls-1"><g id="Rocket"><g id="group">
+<path id="q" class="cls-2" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="209" stroke-dashoffset="0" d="M68.07,237.05,44.44,248.13v.05c-1.79,10.53-10.05,18.51-22,21.52h0l-4-22.42A37,37,0,0,1,23,221.78l22.28-37.66Z">
+    <animate id="p1" attributeName="stroke-dashoffset"  values="209; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+<path id="w" class="cls-3" d="M23.26,248.49a48.58,48.58,0,0,1,3.65-27.18c6-13.52,18.42-37.18,18.42-37.18L23,221.78a37,37,0,0,0-4.57,25.51l4,22.42a37.73,37.73,0,0,0,4.33-1.37Z" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="187" stroke-dashoffset="0">
+    <animate id="p1" attributeName="stroke-dashoffset"  values="187; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+<path id="e" class="cls-2" d="M107.93,237.05l23.63,11.08v.05c1.79,10.53,10.05,18.51,22,21.52h0l4-22.42A37,37,0,0,0,153,221.78l-22.28-37.66Z" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="209" stroke-dashoffset="0">
+    <animate id="p1" attributeName="stroke-dashoffset"  values="209; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+
+<path id="r" class="cls-4" d="M152.74,248.49a48.58,48.58,0,0,0-3.65-27.18c-6-13.52-18.42-37.18-18.42-37.18L153,221.78a37,37,0,0,1,4.57,25.51l-4,22.42a37.73,37.73,0,0,1-4.33-1.37Z" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="187" stroke-dashoffset="0">
+    <animate id="p1" attributeName="stroke-dashoffset"  values="187; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+<path id="t" class="cls-5" d="M145.67,87.38A95.09,95.09,0,0,0,126,42H50A95.09,95.09,0,0,0,30.33,87.38c-8.45,53.45,20.09,119.41,35.84,150.68h43.65C125.58,206.79,154.12,140.83,145.67,87.38Z" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="543" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="534; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+<path id="y" class="cls-6" d="M73.9,252.67a6.82,6.82,0,0,0,6,3.49H96.14a6.82,6.82,0,0,0,6-3.49c1.72-3.07,4.45-8.11,7.73-14.61H66.17C69.45,244.56,72.18,249.59,73.9,252.67Z" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="108" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="108; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+<path id="u" class="cls-7" d="M88,13.52S67,20.86,50,42H126C109,20.86,88,13.52,88,13.52Z" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="172" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="172; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+<path id="i" class="cls-8" d="M88,13.52S67,20.86,50,42A95.09,95.09,0,0,0,30.33,87.38c-8.45,53.45,20.09,119.41,35.84,150.68,3.27,6.5,6,11.53,7.73,14.61a6.82,6.82,0,0,0,6,3.49C22.8,112.54,35.89,66.61,88,13.52Z" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="540" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="540; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+
+<circle id="o" class="cls-9" cx="88" cy="91.64" r="36.47" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="229" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="229; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</circle>
+<circle id="p" class="cls-10" cx="88" cy="90.14" r="35.91" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="225" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="225; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</circle>
+<!-- <circle class="cls-11" cx="88" cy="90.14" r="28.64"/> -->
+<circle id="a" class="cls-12" cx="88" cy="90.14" r="23.53" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="147" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="147; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</circle>
+<path id="s" class="cls-10" d="M70,90.14a16.8,16.8,0,0,1,1.24-6.94,17.29,17.29,0,0,1,9.81-9.81A16.82,16.82,0,0,1,88,72.15v.43c-2.29,1.51-4.05,2.71-5.64,3.94a54,54,0,0,0-4.21,3.77,56.45,56.45,0,0,0-3.76,4.22c-1.22,1.59-2.43,3.35-4,5.64Z" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="54" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="54; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+<path id="d" class="cls-13" d="M107.36,78.42,76.28,109.49a22.75,22.75,0,0,0,31.07-31.07Z" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="103" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="103; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+<line id="f" class="cls-14" x1="81.14" y1="197.16" x2="94.86" y2="197.16" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="14" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="14; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</line>
+<line id="g" class="cls-14" x1="81.14" y1="202.24" x2="94.86" y2="202.24" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="14" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="14; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</line>
+<line id="h" class="cls-14" x1="81.14" y1="207.32" x2="94.86" y2="207.32" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="14" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="14; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</line>
+<line id="j" class="cls-14" x1="81.14" y1="212.39" x2="94.86" y2="212.39" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="14" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="14; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</line>
+<line id="k" class="cls-14" x1="81.14" y1="217.47" x2="94.86" y2="217.47" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="14" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="14; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</line>
+<circle id="l" class="cls-15" cx="88" cy="148.93" r="9.77" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="61" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="61; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</circle>
+<circle id="z" class="cls-16" cx="88" cy="148.93" r="7.85" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="49" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="49; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</circle>
+<circle id="x" class="cls-17" cx="88" cy="169.85" r="4.89" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="30" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="30; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</circle>
+<circle id="c" class="cls-18" cx="88" cy="169.85" r="3.92" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="204" stroke-dashoffset="0">
+<animate id="p1" attributeName="stroke-dashoffset"  values="24; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</circle></g></g>
+<g id="Fire">
+<path class="cls-19" id="logo0" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round"  stroke-dasharray="204" stroke-dashoffset="0" d="M96.14,256.16S146.22,289.53,88,333c-58.22-43.47-8.14-76.84-8.14-76.84Z">
+    <animate id="p1" attributeName="stroke-dashoffset"  values="204; 0" dur="3s"
+                                    repeatCount="1"
+                                fill="none"  calcMode="ease">
+    </animate>
+</path>
+<path class="cls-20" id="logo1" stroke="rgba(0,0,0,.1)" stroke-width=".5" stroke-linecap="round" stroke-dasharray="134" stroke-dashoffset="0" d="M93.34,256.16s32.88,21.91-5.34,50.45c-38.23-28.54-5.34-50.45-5.34-50.45Z">
+    <animate id="p1" attributeName="stroke-dashoffset"  values="134; 0" dur="3s"
+                                    repeatCount="1" fill="none"  calcMode="ease">
+    </animate>
+</path>
+<path class="cls-21"  id="logo2" stroke="rgba(0,0,0,.1)"  stroke-width=".5" stroke-linecap="round" stroke-dasharray="79" stroke-dashoffset="0" d="M91.15,256.16s19.39,12.92-3.15,29.75c-22.54-16.83-3.15-29.75-3.15-29.75Z">
+    <animate id="p1" attributeName="stroke-dashoffset"  values="79; 0" dur="3s" repeatCount="1"
+    fill="none"  calcMode="ease">
+    </animate>
+</path>
+</g>
+</g></svg>
