@@ -217,7 +217,7 @@ window.onload = function() {
 
   // Draw the BG
   var background = new Path.Rectangle(view.bounds);
-      background.fillColor = '#4b28c4';
+      background.fillColor = 'rgba(255,255,255,0)';
   buildStars();
 
   paper.view.draw();
@@ -239,7 +239,7 @@ window.onresize = function() {
   D = Math.max(paper.view.getSize().width, paper.view.getSize().height);
   // Draw the BG
   var background = new Path.Rectangle(view.bounds);
-     background.fillColor = '4b28c4';
+      background.fillColor = 'rgba(255,255,255,0)';
   buildStars();
 };
 
