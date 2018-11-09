@@ -13,6 +13,42 @@ body{
 .purple{
     color: #99039f;
 }
+.planet{
+    position: absolute;
+    height: 30%;
+    filter: drop-shadow(1px 0px 5px black);
+   
+}
+@keyframes main_planet_first{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes main_planet_second{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+.first_planet{
+    top: 30%;
+    left: 10%;
+    transform-origin: 25% 20%;
+     animation: main_planet_first 40s linear infinite;
+}
+.second_planet{
+    top: 10%;
+    right: 10%;
+    transform-origin: 10% 10%;
+     animation: main_planet_second 40s linear infinite;
+
+}
 h1{
     font-size: 40px;
 }
@@ -239,7 +275,7 @@ h1{
 
 .with_us h1{
     color: #9904a0;
-    font-size: 50px;
+    font-size: 33px;
     font-weight: 700;
 }
 .arrow{
