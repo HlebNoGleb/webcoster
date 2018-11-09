@@ -1,4 +1,4 @@
-$(function(){
+    $(function(){
     popupDisplay();
     diplay_hide();
     linkScroll();
@@ -264,9 +264,9 @@ var buildStars = function() {
   var path = new Path.Circle({
     center: [0, 0],
     radius: 3,
-    fillColor: 'white',
+    fillColor: 'purple',
     strokeColor: 'black',
-    strokeWidth: 2
+    strokeWidth: .3
   });
 
   var symbol = new Symbol(path);
