@@ -16,7 +16,7 @@ body{
 .planet{
     position: absolute;
     height: 30%;
-    filter: drop-shadow(1px 0px 5px black);
+    filter: drop-shadow(1px 0px 10px rgba(0,0,0,.5));
    
 }
 @keyframes main_planet_first{
@@ -38,13 +38,13 @@ body{
 
 .first_planet{
     top: 30%;
-    left: 10%;
+    left: 20%;
     transform-origin: 25% 20%;
      animation: main_planet_first 40s linear infinite;
 }
 .second_planet{
     top: 10%;
-    right: 10%;
+    right: 20%;
     transform-origin: 10% 10%;
      animation: main_planet_second 40s linear infinite;
 
@@ -275,7 +275,7 @@ h1{
 
 .with_us h1{
     color: #9904a0;
-    font-size: 33px;
+    font-size: 33   px;
     font-weight: 700;
 }
 .arrow{
