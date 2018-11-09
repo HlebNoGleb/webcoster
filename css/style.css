@@ -1,10 +1,17 @@
 body{
     line-height: 1.2;
-    font-family: "SourceSansPro";
+    font-family: "Raleway";
     color: #2b2b2b;
     font-size: 16px;
     overflow-x: hidden;
     background-color: #f9f7f8;
+    width: 101%;
+}
+.blue{
+    color: #023295;
+}
+.purple{
+    color: #99039f;
 }
 h1{
     font-size: 40px;
@@ -19,7 +26,7 @@ h1{
 #space{
     position: absolute;
     width: 100%;
-    height: 80vh;
+    height: 80vh!important;
     /*background: linear-gradient(to top,#39F625, #A37272);*/
     z-index: -1;
     top: 0;
@@ -133,7 +140,7 @@ h1{
 .header__block{
     background-color: rgba(255,255,255,0);
     /*border-bottom: 1px solid #820b9b;*/
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -144,15 +151,13 @@ h1{
 .header__content{
     padding: 10px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .logo{
     width: 158px;
     height: 26px;
-    margin-right: auto;
-    margin-left: 0;
 }
 
 .logo__image{
@@ -178,15 +183,14 @@ h1{
 
 .menu__link:hover{
     /*color: #a70aa5;*/
-    text-decoration: underline solid white;
+    text-decoration: underline solid #9904a0;
+    color: #9904a0;
 }
 
 .header__buttons{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-left: auto;
-    margin-right: 0;
 }
 
 .header .btn{
@@ -233,6 +237,14 @@ h1{
     transform: translate(-50%,-50%);
 }
 
+.with_us h1{
+    color: #9904a0;
+    font-size: 50px;
+    font-weight: 700;
+}
+.arrow{
+    fill:red;
+}
 /*intro*/
 
 
@@ -282,7 +294,7 @@ h1{
 
 /*services*/
 .services{
-    background-color: #27528c;
+    background-color: rgb(92,24,171);
     padding-top: 65px;
     padding-bottom: 60px;
     overflow: hidden;
@@ -310,22 +322,33 @@ h1{
 }
 
 .services__image{
+    background-image: url(../img/moon.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
     width: 120px;
     height: 120px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 15px auto;
+    position: relative;
+    filter: drop-shadow(0px 0px 10px #C57ADD);
+    transition: .4s;
+}
+.services__image:hover{
+    filter: drop-shadow(0px 0px 30px #C57ADD);
 }
 
 .services__icon{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 50%;
+    max-height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
-.services__icon{
-    max-width: 100%;
-    max-height: 100%;
-}
 
 .services__title {
     font-size: 20px;
@@ -342,7 +365,7 @@ h1{
 
 /*feedback*/
 .feedback{
-    background-color: #27528c;
+    background-color: rgb(92,24,171);
     padding-top: 60px;
     padding-bottom: 155px;
     position: relative;
@@ -625,6 +648,7 @@ h1{
 
 .list__item{
     padding: 3px 0;
+    font-size: 15px;
 }
 
 .list__text_purple{
@@ -649,7 +673,7 @@ h1{
 .guarantee{
     padding-top: 55px;
     padding-bottom: 80px;
-    background-color: #27528c;
+    background-color: rgb(92,24,171);
     position: relative;
     overflow: hidden;
     color: #fff;
@@ -682,18 +706,32 @@ h1{
 .guarantee .grid__item{
     padding: 30px;
 }
-
 .guarantee__image{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin: 0 auto 45px auto;
     overflow: hidden;
+    background-image: url(../img/moon.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+position: relative;
+    filter: drop-shadow(0px 0px 10px #C57ADD);
+    transition: .4s;
+}
+.guarantee__image:hover{
+    filter: drop-shadow(0px 0px 30px #C57ADD);
 }
 
 .guarantee__icon{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 50%;
+    max-height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .guarantee__text{
@@ -707,7 +745,7 @@ h1{
     padding-top: 65px;
     padding-bottom: 100px;
     position: relative;
-    background-color: #27528c;
+    background-color: rgb(92,24,171);
     color: #fff;
     overflow: hidden;
 }
@@ -1028,7 +1066,7 @@ h1{
 /*contacts*/
 
 .contacts{
-    background-color: #27538c;
+    background-color: rgb(92,24,171);
     padding-top: 60px;
     padding-bottom: 30px;
     color: #fff;
@@ -1056,7 +1094,7 @@ h1{
 
 /*footer*/
 .footer{
-    background-color: #27538c;
+    background-color: rgb(92,24,171);
     color: #fff;
     overflow: hidden;
 }
@@ -1752,6 +1790,12 @@ h1{
 }
 
 @media (max-width: 424px){
+    .with_us h1{
+        font-size: 30px;
+    }
+    #space{
+        display: none;
+    }
     .title {
         font-size: 18px;
         margin-bottom: 25px;
@@ -1827,22 +1871,28 @@ h1{
 }
 
 @font-face {
-    font-family: "SourceSansPro";
-    src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype");
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-MediumItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "SourceSansPro";
-    src: url("../fonts/SourceSansPro-SemiBold.ttf") format("truetype");
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Medium.ttf") format("truetype");
     font-style: normal;
     font-weight: 600;
 }
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
 
 @font-face {
-    font-family: "SourceSansPro";
-    src: url("../fonts/SourceSansPro-Bold.ttf") format("truetype");
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Bold.ttf") format("truetype");
     font-style: normal;
     font-weight: 700;
 }
