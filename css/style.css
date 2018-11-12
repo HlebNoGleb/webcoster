@@ -72,6 +72,7 @@ h1{
     transform: translate(-50%,-50%);
     border-radius: 50%;
     border: 2px dashed black;
+     -moz-border: 2px dashed black;
     height: 950px;
     width: 950px;
     z-index: -1;
@@ -83,6 +84,7 @@ h1{
     transform: translate(-50%,-50%);
     border-radius: 50%;
     border: 2px dashed blue;
+     -moz-border: 2px dashed blue;
     height: 850px;
     width: 850px;
     z-index: -1;
@@ -94,6 +96,7 @@ h1{
     transform: translate(-50%,-50%);
     border-radius: 50%;
     border: 2px dashed red;
+     -moz-border: 2px dashed red;
     height: 750px;
     width: 750px;
    z-index: -1; /*z-index: 10000;*/
