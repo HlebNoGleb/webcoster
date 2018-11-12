@@ -29,13 +29,6 @@ body{
         transform: rotate(360deg);
     }
 }
-
-
-
-
-
-
-
 .first_planet{
     top: 30%;
     left: 20%;
@@ -68,7 +61,123 @@ h1{
     top: 0;
     left: 0;
 }
+.steps{
+    position: relative;
+    overflow:hidden;
+}
+.round1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 2px dashed black;
+    height: 950px;
+    width: 950px;
+    z-index: -1;
+}
+.round2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 2px dashed blue;
+    height: 850px;
+    width: 850px;
+    z-index: -1;
+}
+.round3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 2px dashed red;
+    height: 750px;
+    width: 750px;
+   z-index: -1; /*z-index: 10000;*/
+}
+.steps_slider .slick-dots li:nth-child(1) button{
+    background-image: url(../img/dot1.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 1%;
+    right: 10%;
+    filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
 
+}
+.steps_slider .slick-dots li:nth-child(2) button{
+    background-image: url(../img/dot2.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+    border: none;
+     width: 60px;
+    height: 60px;
+     position: absolute;
+    top: 16.5%;
+    right: 8.3%;
+    filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+}
+.steps_slider .slick-dots li:nth-child(3) button{
+    background-image: url(../img/dot3.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+    border: none;
+     width: 70px;
+    height: 70px;
+     position: absolute;
+    top: 33%;
+    right: 7.2%;
+    filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+}
+.steps_slider .slick-dots li:nth-child(4) button{
+    background-image: url(../img/dot4.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+    border: none;
+     width: 80px;
+    height: 80px;
+     position: absolute;
+    top: 50%;
+    right: 7%;
+    filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+}
+.steps_slider .slick-dots li:nth-child(5) button{
+    background-image: url(../img/dot5.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+    border: none;
+     width: 90px;
+    height: 90px;
+     position: absolute;
+    top: 69%;
+    right: 7.6%;
+    filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+}
+.watch{
+    justify-content: center!important;
+    padding: 20px;
+}
 .container{
     width: 100%;
     max-width: 1190px;
@@ -774,6 +883,30 @@ position: relative;
     font-size: 17px;
     line-height: 1.15;
 }
+/*steps;*/
+.steps{
+
+}
+.flex_row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flex_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.process_img {
+    width: 50%; 
+}
+.stopwatch_img{
+    width: 50px;
+}
+
+/*steps;*/
+
 
 /*faq*/
 

@@ -121,6 +121,41 @@ $('.command .slider__content').slick({
         }
     ]
 });
+$('.steps_slider').slick({
+    arrows: false,
+    prevArrow: $('.command .slider__arrow_prev'),
+    nextArrow: $('.command .slider__arrow_next'),
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    swipe: true,
+    appendDots: $('.steps_slider'),
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 641,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                swipe: true
+            }
+        }
+    ]
+});
 
 function Length() {
     // var path0 = document.querySelector('#q');
