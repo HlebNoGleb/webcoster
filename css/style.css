@@ -84,6 +84,7 @@ h1{
     top: 0;
     left: 0;
 }
+
 .steps{
     position: relative;
     overflow:hidden;
@@ -144,6 +145,28 @@ h1{
    z-index: -1; /*z-index: 10000;*/
    opacity: .2;
 }
+.fa-hand-point-left{
+    position: absolute;
+    top: 22%;
+    right: 24%;
+}
+@keyframes vjuh{
+    10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
 .steps_slider .slick-dots li:nth-child(1) button{
     background-image: url(../img/1planet.png);
     background-repeat: no-repeat;
@@ -157,6 +180,7 @@ h1{
     position: absolute;
     top: -7%;
     right: 11%;
+    animation: vjuh 0.82s infinite cubic-bezier(.36,.07,.19,.97) both;
     /*-webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
             filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));*/
 
