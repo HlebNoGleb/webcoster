@@ -35,7 +35,9 @@ function popupDisplay() {
         }
     });
 }
+$(".steps_slider .slick-dots li:nth-child(1) button"){
 
+}
 function diplay_hide(){
     $(".faq__question").click(function () {
         if ($(this).parent().find(".faq__answer").css('display') == 'none'){
@@ -130,7 +132,7 @@ $('.steps_slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 4000,
     swipe: true,
     appendDots: $('.steps_slider'),
     responsive: [

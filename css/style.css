@@ -210,14 +210,14 @@ h1{
     position: absolute;
     -webkit-border-radius: 50%;
             border-radius: 50%;
-    -webkit-animation: waves 2s linear 0s normal none infinite running;
-            animation: waves 2s linear 0s normal none infinite running;
+    -webkit-animation: waves 4s linear 0s normal none infinite running;
+            animation: waves 4s linear 0s normal none infinite running;
     z-index: 1;
 }
 
 .steps_slider .slick-dots .slick-active  button::after{
-    -webkit-animation: waves 2s linear 1s normal none infinite running;
-            animation: waves 2s linear 1s normal none infinite running;
+    -webkit-animation: waves 4s linear 1s normal none infinite running;
+            animation: waves 2\4s linear 1s normal none infinite running;
 }
 .steps_slider .slick-dots li:nth-child(1) button{
     background-image: url(../img/1planet.png);
