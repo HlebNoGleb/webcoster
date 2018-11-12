@@ -35,9 +35,6 @@ function popupDisplay() {
         }
     });
 }
-$(".steps_slider .slick-dots li:nth-child(1) button"){
-
-}
 function diplay_hide(){
     $(".faq__question").click(function () {
         if ($(this).parent().find(".faq__answer").css('display') == 'none'){
