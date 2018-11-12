@@ -144,24 +144,40 @@ h1{
    opacity: .2;
 }
 .steps_slider .slick-dots li:nth-child(1) button{
-    background-image: url(../img/dot1.png);
+    background-image: url(../img/1planet.png);
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     background-color: rgba(255,255,255,0);
     color: rgba(255,255,255,0);
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 1%;
-    right: 10%;
-    -webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
-            filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+    top: -7%;
+    right: 11%;
+    /*-webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+            filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));*/
 
 }
 .steps_slider .slick-dots li:nth-child(2) button{
-    background-image: url(../img/dot2.png);
+    background-image: url(../img/2planet.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+    border: none;
+     width: 50px;
+    height: 50px;
+     position: absolute;
+    top: 10.5%;
+    right: 8.9%;
+   /* -webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+            filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));*/
+}
+.steps_slider .slick-dots li:nth-child(3) button{
+    background-image: url(../img/3planet.png);
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
@@ -171,13 +187,13 @@ h1{
      width: 60px;
     height: 60px;
      position: absolute;
-    top: 16.5%;
-    right: 8.3%;
-    -webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
-            filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+    top: 33%;
+    right: 7.5%;
+   /* -webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+            filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));*/
 }
-.steps_slider .slick-dots li:nth-child(3) button{
-    background-image: url(../img/dot3.png);
+.steps_slider .slick-dots li:nth-child(4) button{
+    background-image: url(../img/4planet.png);
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
@@ -187,13 +203,13 @@ h1{
      width: 70px;
     height: 70px;
      position: absolute;
-    top: 33%;
-    right: 7.2%;
-    -webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
-            filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+    top: 58%;
+    right: 7.5%;
+    /*-webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+            filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));*/
 }
-.steps_slider .slick-dots li:nth-child(4) button{
-    background-image: url(../img/dot4.png);
+.steps_slider .slick-dots li:nth-child(5) button{
+    background-image: url(../img/5planet.png);
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
@@ -203,26 +219,10 @@ h1{
      width: 80px;
     height: 80px;
      position: absolute;
-    top: 50%;
-    right: 7%;
-    -webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
-            filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
-}
-.steps_slider .slick-dots li:nth-child(5) button{
-    background-image: url(../img/dot5.png);
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    background-size: contain;
-    background-color: rgba(255,255,255,0);
-    color: rgba(255,255,255,0);
-    border: none;
-     width: 90px;
-    height: 90px;
-     position: absolute;
-    top: 69%;
-    right: 7.6%;
-    -webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
-            filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+    top: 84%;
+    right: 9.6%;
+    /*-webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));
+            filter: drop-shadow(0px 0px 1px rgba(0,0,0,.4));*/
 }
 .watch{
     -webkit-box-pack: center!important;
@@ -1293,6 +1293,9 @@ position: relative;
 }
 .process_img {
     width: 50%; 
+    max-width: 595px;
+    max-height: 324px;
+    object-fit: contain;
 }
 .stopwatch_img{
     width: 50px;
