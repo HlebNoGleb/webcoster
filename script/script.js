@@ -1,5 +1,4 @@
     $(function(){
-    popupDisplay();
     diplay_hide();
     linkScroll();
     menuShow();
